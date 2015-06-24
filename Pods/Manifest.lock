@@ -1,11 +1,11 @@
 PODS:
   - AFNetworking (2.2.1):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
+    - AFNetworking/NSURLConnection (= 2.2.1)
+    - AFNetworking/NSURLSession (= 2.2.1)
+    - AFNetworking/Reachability (= 2.2.1)
+    - AFNetworking/Security (= 2.2.1)
+    - AFNetworking/Serialization (= 2.2.1)
+    - AFNetworking/UIKit (= 2.2.1)
   - AFNetworking/NSURLConnection (2.2.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
@@ -21,13 +21,19 @@ PODS:
   - BDBOAuth1Manager (1.2.0):
     - AFNetworking/NSURLConnection (~> 2.2.0)
     - AFNetworking/NSURLSession (~> 2.2.0)
+  - FXBlurView (1.6.3)
+  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
   - AFNetworking
   - BDBOAuth1Manager
+  - FXBlurView
+  - SVPullToRefresh
 
 SPEC CHECKSUMS:
-  AFNetworking: 0121f4b69be3fa58d1ab317866e036e12ac9651d
-  BDBOAuth1Manager: 25d18d56820695aa18aae44eecad55829274a290
+  AFNetworking: 59a0b8e9ecd4e194d64b4967232cd2cc83490113
+  BDBOAuth1Manager: 7a5af4db9a9a71426e81f0c7b96e6b19f004db73
+  FXBlurView: c6d23f3d35af2c6282296a2930f61c6e2c788d01
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.37.2

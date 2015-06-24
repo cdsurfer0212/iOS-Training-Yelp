@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : UIViewController <UINavigationControllerDelegate>
+
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+@property (nonatomic, strong) NSArray *businesses;
+@property (nonatomic, strong) NSDictionary *region;
 
 @end
